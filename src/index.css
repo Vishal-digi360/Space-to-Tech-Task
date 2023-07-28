@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.figure {
+    position: relative;
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+    width: 50% !important;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+
+  .content-\[\'\'\]{
+    display: none;
+  }
+
+  body{
+
+    background-color:#141414;
+  }
