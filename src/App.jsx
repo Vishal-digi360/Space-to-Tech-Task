@@ -6,6 +6,7 @@ import ImgSlider from './components/ImgSlider'
 import Article from './components/Article'
 import Cosmocorpi from './components/Cosmocorpi'
 import ImgSection from './components/ImgSection'
+import Contatti from './components/Contatti'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Article/>
       <Cosmocorpi/>
       <ImgSection/>
+      <Contatti/>
       <Navbar/>
       
      
