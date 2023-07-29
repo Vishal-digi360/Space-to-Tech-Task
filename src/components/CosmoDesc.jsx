@@ -18,7 +18,7 @@ const CosmoDesc = () => {
               <Line />
             </div>
 
-            <p className="hover:text-white w-80 pl-24  text-gray-600 ">
+            <p className="hover:text-white w-80 sm:pl-32 pl-4  text-gray-600 ">
               Metafora dell’energia vitale che si espande, queste opere
               processuali richiamano l’embrione, la sacca placentare e il ciclo
               crescita-morte-rigenerazione.
