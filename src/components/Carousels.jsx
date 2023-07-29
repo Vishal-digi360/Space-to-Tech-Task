@@ -1,16 +1,13 @@
 import { Carousel, Typography } from "@material-tailwind/react";
 import HeroCard from "./HeroCard";
-import Navbar from "./Navbar";
 import Pay from "./Pay";
 
 export function CarouselWithContent() {
   return (
     <>
-   
-      <Carousel className="overflow-hidden " >
-        
+      <Carousel className="overflow-hidden ">
         <div className="relative h-screen w-full">
-          <HeroCard/>
+          <HeroCard />
         </div>
         <div className="relative h-screen w-screen bg-[#141414]">
           <div className="flex justify-center items-center h-screen">
@@ -30,11 +27,10 @@ export function CarouselWithContent() {
             className="h-full w-full object-cover"
           />
         </div>
-      
       </Carousel>
       {/* <div className="absolute inset-0  h-full w-full  bg-black/75"> */}
-     
-     <Pay/>
+
+      <Pay />
       {/* </div> */}
     </>
   );
