@@ -44,7 +44,7 @@ const HeroAnimation = () => {
       <div className="h-screen overflow-hidden    ">
         <div className="flex  justify-center items-center ">
           <img
-            className={` ${opacity}  duration-900 ${scale} transition-opacity`}
+            className={` ${opacity}  duration-900 ${scale}   transition-transform `}
             src="http://archiviomariorusso.it/img/loader-bg.jpg"
             alt=""
           />
