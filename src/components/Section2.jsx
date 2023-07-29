@@ -4,7 +4,7 @@ const Section2 = () => {
   return (
     <>
 
-    <div className="flex sm:justify-between justify-around mt-10 ">
+    <div className="flex sm:justify-between justify-around mt-5 ">
       <img
       className="w-1/3 hover:scale-105 duration-500"
       
