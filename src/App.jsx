@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Section2 from './components/Section2'
 import ImgSlider from './components/ImgSlider'
 import Article from './components/Article'
+import Cosmocorpi from './components/Cosmocorpi'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ImgSlider/>
       
       <Article/>
+      <Cosmocorpi/>
       
       <Navbar/>
       

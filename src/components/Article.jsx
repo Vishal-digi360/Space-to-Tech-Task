@@ -24,9 +24,9 @@ const Article = () => {
             alt=""
           />
         </div>
-          <div className="sm:pl-32 w-80 mt-6 "
+          <div className="sm:pl-24 w-80 mt-6 "
            >
-            <h4>
+            <h4 className="text-gray-600">
 
               Più di cinquant’anni di ricerca di un artista che si è mosso sulla
               linea dell’avanguardia, dal dopoguerra agli anni Duemila, tra
