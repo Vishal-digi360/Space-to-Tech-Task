@@ -10,7 +10,7 @@ import Cosmocorpi from "../components/Cosmocorpi";
 import ImgSection from "../components/ImgSection";
 import Contatti from "../components/Contatti";
 import { CarouselWithContent } from "../components/Carousels";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/GlobalComp/Navbar";
 
 function Home() {
   const [show, setShow] = useState(false);

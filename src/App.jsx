@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Pages/Home'
-import Navbar from './components/Navbar'
+import Navbar from './components/GlobalComp/Navbar'
 
 
 const App = () => {

@@ -3,7 +3,7 @@ import { Typography } from "@material-tailwind/react";
 import { useState } from "react";
 
 const Pay = () => {
-  const [amount, setAmount] = useState(Math.random() * 100);
+  const [amount, setAmount] = useState(Math.random() * 10000);
 
   const PayNow = () => {
 
