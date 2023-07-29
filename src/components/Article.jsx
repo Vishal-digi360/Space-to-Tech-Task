@@ -11,7 +11,7 @@ const Article = () => {
 
       <div className="text-white flex justify-between sm:px-40 px-6 ">
         <div>
-          <h3 className="text-[32px] mt-5 mb-10 w-64 text-start italic " data-aos="zoom-in" data-aos-duration="1500">
+          <h3 className="text-[32px] mt-5 mb-10 w-64 text-start Playfair-font" data-aos="zoom-in" data-aos-duration="1500">
             Mi sono consumato. Ho dato il mio flusso vitale alle mie opere,
             all’arte.
           </h3>

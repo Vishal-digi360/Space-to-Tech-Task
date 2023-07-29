@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Quicksand&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,6 +30,10 @@
 
     background-color:#141414;
   }
+
+.Playfair-font{
+  font-family: 'Playfair Display', serif;
+}
 
   .slick-next{
     font-weight: 900;
