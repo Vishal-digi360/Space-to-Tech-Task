@@ -5,10 +5,11 @@ import Section2 from './components/Section2'
 import ImgSlider from './components/ImgSlider'
 import Article from './components/Article'
 import Cosmocorpi from './components/Cosmocorpi'
+import ImgSection from './components/ImgSection'
 
 function App() {
   return (
-    <div >
+    <div className='pb-96' >
      
       <CarouselWithContent/>
       <Section2/>
@@ -16,7 +17,7 @@ function App() {
       
       <Article/>
       <Cosmocorpi/>
-      
+      <ImgSection/>
       <Navbar/>
       
      
