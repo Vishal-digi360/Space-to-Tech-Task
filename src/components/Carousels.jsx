@@ -7,7 +7,7 @@ export function CarouselWithContent() {
   return (
     <>
    
-      <Carousel className="overflow-hidden mt-10" >
+      <Carousel className="overflow-hidden " >
         
         <div className="relative h-screen w-full">
           <HeroCard/>
