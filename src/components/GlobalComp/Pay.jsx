@@ -15,7 +15,7 @@ const Pay = () => {
             amount: parseInt(amount * 100),
             currency: "INR",
             order_receipt: 'order_rcptid_' + "zvshj",
-            name: "Archiviomariorusso",
+            name: "Archivio mario russo",
             description: "for testing purpose",
             handler: function (response) {
               console.log(response)
