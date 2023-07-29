@@ -1,6 +1,6 @@
 import { Carousel, Typography } from "@material-tailwind/react";
 import HeroCard from "./HeroCard";
-import Pay from "./GlobalComp/Pay";
+import Pay from "../GlobalComp/Pay";
 
 export function CarouselWithContent() {
   return (

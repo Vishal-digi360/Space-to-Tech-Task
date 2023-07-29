@@ -1,5 +1,5 @@
 import React from "react";
-import Line from "./GlobalComp/Line";
+import Line from "../GlobalComp/Line";
 
 const ImgSection = () => {
   return (
@@ -32,9 +32,9 @@ const ImgSection = () => {
         </p>
       </div>
       <div className="flex flex-col items-center justify-center  my-10">
-              <h1 className="text-white ">LEGGI LA BIOGRAFIA</h1>
-              <Line />
-            </div>
+        <h1 className="text-white ">LEGGI LA BIOGRAFIA</h1>
+        <Line />
+      </div>
     </div>
   );
 };
