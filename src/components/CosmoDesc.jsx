@@ -12,13 +12,13 @@ const CosmoDesc = () => {
           </div>
         </div>
         <div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col-reverse sm:flex-col  items-center justify-center">
             <div className="flex flex-col items-center justify-center  my-20">
               <h1 className="text-white text-center">ESPLORA</h1>
               <Line />
             </div>
 
-            <p className="hover:text-white w-80 sm:pl-32 pl-0  text-gray-600 ">
+            <p className="hover:text-white w-80 sm:pl-32 pl-0  text-gray-600 mt-10 sm:mt-0 ">
               Metafora dell’energia vitale che si espande, queste opere
               processuali richiamano l’embrione, la sacca placentare e il ciclo
               crescita-morte-rigenerazione.
