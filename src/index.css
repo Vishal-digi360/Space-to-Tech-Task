@@ -28,3 +28,30 @@
 
     background-color:#141414;
   }
+
+  .slick-next{
+    font-weight: 900;
+      color: white;
+      font-size: large;
+    margin-right: 5px;
+    }
+    .slick-prev{
+      font-weight: 900;
+      color: white;
+      font-size: large;
+      
+    }
+
+
+    .slick-dots li button:before{
+      color: white !important;
+      /* background-color: white; */
+    }
+
+    .slick-dots li.slick-active button:before {
+      color: white !important;
+    }
+
+    .slick-dots li.slick-active button:after {
+      color: white !important;
+    }

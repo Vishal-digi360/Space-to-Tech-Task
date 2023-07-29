@@ -7,7 +7,7 @@ export function CarouselWithContent() {
   return (
     <>
    
-      <Carousel className="" >
+      <Carousel className="overflow-hidden mt-10" >
         
         <div className="relative h-screen w-full">
           <HeroCard/>
@@ -30,9 +30,10 @@ export function CarouselWithContent() {
             className="h-full w-full object-cover"
           />
         </div>
+      
       </Carousel>
       {/* <div className="absolute inset-0  h-full w-full  bg-black/75"> */}
-      <Navbar/>
+     
      <Pay/>
       {/* </div> */}
     </>

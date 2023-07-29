@@ -40,7 +40,7 @@ const Pay = () => {
 
   return (
     <>
-      <div className="fixed sm:top-[50%] sm:left-[40%] top-[49%] left-[30%]">
+      <div className="absolute sm:top-[54%] sm:left-[40%] top-[80%] left-[30%]">
         <div
           className="cursor-pointer"
           onClick={() => {
